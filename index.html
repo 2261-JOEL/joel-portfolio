@@ -12,6 +12,9 @@
 
     <!-- fontawesome link  -->
     <script src="https://kit.fontawesome.com/a6306d3c0d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -46,7 +49,7 @@
         <div class="containerAbout">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/user.png" alt="userImage">
+                    <img src="images/Screenshot 2023-08-29 164902.png" alt="userImage">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About me</h1>
@@ -59,33 +62,43 @@
 
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
                         <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
-                            <li><span>Web Development</span><br>Web App Development</li>
-                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                            <li><span>Languages</span><br>C | Python | Java | SQL</li>
+                            <li><span>Web Development</span><br>HTML5 | CSS3 | JavaScript</li>
+                            <li><span>Video/Photo Editing</span><br>DaVinci Resolve | Adobe Premiere Pro | Photoshop
+                            <li><span>Software and Tools</span><br>VS Code | Eclipse | MS Word | Excel | Powerpoint</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - 2024</span><br> <strong>Masters In Computer Application</strong> <br>Goa
+                                University</li>
+                            <li><span>2019 - 2022</span><br> <strong>Bachelor of Science | Mathematics</strong>
+                                <br>Parvatibai Chowgule College Of Arts & Science
+                            </li>
+                            <li><span>2017 - 2019</span><br> <strong>Higher Secondary School</strong> <br>Shree Damodar
+                                Higher Secondary School Of Science</li>
+                            <li><span>2014 - 2017</span><br> <strong>High School</strong> <br>Seminary Of Our Lady High
+                                School</li>
+
                         </ul>
                     </div>
 
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>2021 - Current</span><br>UI/UX Design training at ET Institute</li>
-                            <li><span>2019 - 2021</span><br>Team Lead at StartApp LLC.</li>
-                            <li><span>2017 - 2019</span><br>UI/UX Design Executive at coin digital Ltd.</li>
-                            <li><span>2016 - 2017</span><br>Internship at ekart ecCommerce.</li>
+                            <li><span>Photographer/Videographer</span><br>Worked as a photographer and a videogrpaher
+                                too for ocassions like Goan catholic weddings, christenings, birthdays, etc...</li>
+                            <li><span>Video Editor</span><br>Worked as a video editor for a small studio business</li>
+
                         </ul>
                     </div>
 
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>2016</span><br>UI/UX Design training at ET Institute</li>
-                            <li><span>2016</span><br>MBA From MIT Bangalore</li>
-                            <li><span>2014</span><br>BBA From ISM Bangalore</li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </div>
@@ -97,27 +110,34 @@
             <h1 class="sub-title">My Services</h1>
             <div class="services-list">
                 <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsum, fugit nostrum dolore
-                        voluptatum ex?</p>
-                    <a href="#">learn more</a>
+                    <i class="fa-solid fa-code fa-bounce"></i>
+                    <h2>Web Developer</h2>
+                    <p>With the knowledge of HTML, CSS, and Java, I transform ideas into interactive online experiences.
+                        Whether it's a stylish portfolio or a user-friendly web app, I'm dedicated to bringing digital
+                        visions to life.</p>
+
+                    <!-- <a href="#">learn more</a> -->
                 </div>
 
                 <div>
-                    <i class="fa-solid fa-crop-simple"></i>
-                    <h2>UI/UX Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsum, fugit nostrum dolore
-                        voluptatum ex?</p>
-                    <a href="#">learn more</a>
+                    <i class="fa-sharp fa-solid fa-photo-film fa-beat-fade"></i>
+                    <h2>Video Editor</h2>
+                    <p>As a video editor, I bring your ideas to life through seamless editing, captivating effects, and
+                        precise timing. From short films to promotional videos, I'm dedicated to deliver the best
+                        content.</p>
+
+                    <!-- <a href="#">learn more</a> -->
                 </div>
 
                 <div>
-                    <i class="fa-brands fa-app-store"></i>
-                    <h2>App Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsum, fugit nostrum dolore
-                        voluptatum ex?</p>
-                    <a href="#">learn more</a>
+                    <i class="fa-solid fa-spinner fa-spin-pulse"></i>
+                    <i class="fa-solid fa-loader fa-spin"></i>
+                    <h2>Coming Soon...</h2>
+                    <p>Exciting things are on the horizon! Stay tuned as I prepare to unveil a new addition to my
+                        services lineup. Be prepared to explore a new dimension of creativity and innovation. Check back
+                        soon for updates and details!</p>
+
+                    <!-- <a href="#">learn more</a> -->
                 </div>
             </div>
         </div>
@@ -129,31 +149,39 @@
             <h1 class="sub-title">My Work</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="images/work-1.png" alt="work_1">
+                    <img src="images/veg2.jpg" alt="work_1">
                     <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>The app connects you to talented people around the world. Download it from playstore</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Vegetable Shop Management System</h3>
+                        <p>It is a terminal based, menu driven system used for managing all the shop requirements.
+                            Programmed in C using Data Structures and Algorithm</p>
+                        <a href="https://github.com/2261-JOEL/DSALGO_Mini_Project" target="_blank"><i
+                                class="fa-brands fa-github fa-2xl"></i></a>
+
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/work-2.png" alt="work_2">
+                    <img src="images/othello.jpg" alt="work_2">
                     <div class="layer">
-                        <h3>Music App</h3>
-                        <p>The app connects you to talented people around the world. Download it from playstore</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Othello Game (Terminal Play)</h3>
+                        <p>It is a terminal based two player game, created using Objected Oriented Programming in Java
+                        </p>
+                        <a href="https://github.com/2261-JOEL/othello_game_oops" target="_blank"><i
+                                class="fa-brands fa-github fa-2xl"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/work-3.png" alt="work_3">
+                    <img src="images/okr.jpg" alt="work_3">
                     <div class="layer">
-                        <h3>Online Shopping App</h3>
-                        <p>The app connects you to talented people around the world. Download it from playstore</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>An OKR Portal/WebApp</h3>
+                        <p>Objectives and Key Results (OKR) is a goal-setting framework used by organizations to set and
+                            achieve their goals. </p>
+                        <a href="https://keyvision.netlify.app" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn">See More</a>
+            <!-- <a href="#" class="btn">See More</a> -->
         </div>
     </div>
 
@@ -163,18 +191,21 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i> joel80851@gmail.com</p>
-                    <p><i class="fa-sharp fa-solid fa-phone"></i> +91 7038558500</p>
+                    <p><a href="mailto:joel80851@gmail.com" style="text-decoration: none; color: white;"><i
+                                class="fa-solid fa-paper-plane"></i> joel80851@gmail.com</a></p>
+                    <p><a href="tel:917038558500" style="text-decoration: none; color: white;"><i
+                                class="fa-sharp fa-solid fa-phone"></i> +91 7038558500</a></p>
 
                     <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/joel-oliveira-12nov" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://wa.me/917038558500" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://instagram.com/_joel_oliveira_?igshid=MWZjMTM2ODFkZg==" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
                         <a href="https://www.facebook.com/profile.php?id=100011807464035" target="_blank"><i
                                 class="fa-brands fa-facebook"></i></a>
                         <a href="https://twitter.com/Joel80851" target="_blank"><i
                                 class="fa-brands fa-twitter-square"></i></a>
-                        <a href="https://instagram.com/_joel_oliveira_?igshid=MWZjMTM2ODFkZg==" target="_blank"><i
-                                class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/joel-oliveira-12nov" target="_blank"><i
-                                class="fa-brands fa-linkedin"></i></a>
                     </div>
                     <a href="[2261]Resume-JoelOliveira.pdf" download="" class="btn btn2">Download CV</a>
                 </div>
