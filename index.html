@@ -37,8 +37,8 @@
                 <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>UI/UX Designer</p>
-                <h1>Hi, I am <span> Joel Oliveira</span></h1>
+                <h1>Hi, My name is <span> Joel Oliveira</span><br> and I am a passionate</h1>
+                <h1><i><span id="element"></span></i></h1>
             </div>
         </div>
     </div>
@@ -49,7 +49,7 @@
         <div class="containerAbout">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/Screenshot 2023-08-29 164902.png" alt="userImage">
+                    <img src="images/joel-guitar-border.jpg" alt="userImage">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About me</h1>
@@ -231,6 +231,7 @@
 
 
     <!-- Scripting------------------------------------------------------------------------------- -->
+    <!-- Tab open/close operations in about section -->
     <Script>
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
@@ -248,6 +249,7 @@
         }
     </Script>
 
+    <!-- open / close menu functions -->
     <script>
         var sidemenuv = document.getElementById("sidemenu");
 
@@ -260,6 +262,7 @@
 
     </script>
 
+    <!-- google sheet responses functionality -->
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbyU2bSnIKkZuGt_2ufJOATsbla3lRWdhV17wTE4dXI-IIeBG4-pKErGoYJz9U9OXDs/exec'
         const form = document.forms['submit-to-google-sheet']
@@ -279,6 +282,19 @@
                 })
                 .catch(error => console.error('Error!', error.message))
         })
+    </script>
+
+    <!-- typed.js for home page text -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Programmer', 'Web Developer', 'Video Editor', 'Musician'],
+            typeSpeed: 80,
+            backSpeed: 30,
+            // fadeOut: true,
+            loop: true
+        });
     </script>
 </body>
 
